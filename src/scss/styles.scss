@@ -1,1 +1,15 @@
+$primary: #5689d6;
+$secundary: #b3c8e8;
+$carousel-transition-duration:       1s;
+
+$theme-colors:(
+    "primary": $primary,
+    "secundary":$secundary,
+    "success":#198754,
+    "info":#0dcaf0,
+    "warning":#ffc107,
+    "danger": #dc3545,
+    "light":#f8f9fa,
+    "dark":#212529
+);
 @import "bootstrap/scss/bootstrap";
