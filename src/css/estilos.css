@@ -2,3 +2,9 @@
     transform: scale(1.1);
 
 }
+.nav-item:hover .nav-link{
+    color: rgb(201, 201, 201) !important;
+    
+}
+
+
