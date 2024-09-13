@@ -7,4 +7,21 @@
     
 }
 
+.card{
+    max-height:40vh;
+    min-height: 300px;
+    transition: all 1s;
+}
+.card img{
 
+    object-fit: cover !important;
+    height: 200px !important;
+}
+
+.card:hover{
+    cursor: pointer;
+    background: #5689d6;
+}
+.card:hover .card-title{
+    color: #ffffff !important;
+}

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ESAAPP</title>
-    
+    <link rel="shortcut icon" href="/src/icons/logo.jpg">
     <link rel="stylesheet" href="./css/estilos.css" />
     <link
     rel="stylesheet"
@@ -47,7 +47,7 @@
             </li>
           </ul>
           <span class="navbar-text">
-            <button type="button" class="btn btn-light text-primary ">
+            <button type="button" class="btn btn-light text-primary " onclick="location.href =`/#contactenos`">
               Contáctenos
             </button>
           </span>
@@ -133,13 +133,13 @@
         </button>
       </div>
     </section>
-     <section id="quienes-somos" class="container-fluid   quienes-somos-section row align-content-center" style="height: 100vh;">
-      <div class="row">
-        <div class="col-12 col-lg-8 row quienes-somos animate__animated justify-content-center">
+     <section id="quienes-somos" class="container-fluid   quienes-somos-section  align-content-center" style="height: 100vh;">
+      <div class="row ">
+        <div class="col-12 col-lg-6 quienes-somos animate__animated row justify-content-center mx-0">
           <h1 class="col-12 text-center text-decoration-underline text-primary">Quiénes somos</h1>
-          <p class="col-12 col-md-8 text-center text-md-center  ">Somos un grupo de jóvenes apasionados por la tecnología, la innovación y la creatividad. Nos motiva explorar y desarrollar productos y servicios que no solo estén alineados con las últimas tendencias del mercado, sino que también resuenen con las necesidades y expectativas de la juventud actual. Creemos que la tecnología no solo transforma vidas, sino que también puede ser una fuente de diversión, aprendizaje y crecimiento personal.</p>
+          <p class="col-12 col-md-10 text-center text-md-center  ">Somos un grupo de jóvenes apasionados por la tecnología, la innovación y la creatividad. Nos motiva explorar y desarrollar productos y servicios que no solo estén alineados con las últimas tendencias del mercado, sino que también resuenen con las necesidades y expectativas de la juventud actual. Creemos que la tecnología no solo transforma vidas, sino que también puede ser una fuente de diversión, aprendizaje y crecimiento personal.</p>
         </div>
-        <div class="col-12 col-lg-4 mt-5 m-md-0 animate__animated mision-vision">
+        <div class="col-12 col-lg-6 mt-5  animate__animated mision-vision">
           <div class="d-flex mb-4" >
             <div class="align-content-center me-md-5 me-3">
               <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-globe-americas p-3 bg-primary rounded text-white" viewBox="0 0 16 16">
@@ -176,7 +176,7 @@
       </div>
 
      </section>
-     <section id="portafolio" class="container-fluid pt-5 p-md-5 portafolio-section row align-content-start" style="height: 100vh;">
+     <section id="portafolio" class="container-fluid pt-5 p-md-5 portafolio-section row align-content-start" style="min-height: 100vh;">
       <div class="col-12 mt-5"> 
         <h1 class="col-12 text-center text-decoration-underline text-primary">PORTAFOLIO</h1>
       </div>
@@ -196,15 +196,63 @@
           </li>
         </ul>
       </div>
+      <div class=" row row-cols-1 row-cols-md-3 row-cols-sm-2 row-cols-lg-4 g-4 cards-container col-md-12 col-lg-12 mx-0">
+        
+        
+
+        <div class="col card-div">
+          <div
+              class="card overflow-hidden h-100 border border-0 shadow-lg  mb-5 rounded align-items-center fw-light">
+              <img src="./img/atrasvasolo.jpg" class="card-img-top  border-light" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title text-primary">AtrasVaSolo</h5>
+              </div>
+
+          </div>
+      </div>
+      <div class="col card-div">
+        <div
+            class="card overflow-hidden h-100 border border-0 shadow-lg  mb-5 rounded align-items-center fw-light">
+            <img src="./img/chivotour.jpg" class="card-img-top  border-light" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-primary">ChivoTour</h5>
+            </div>
+
+        </div>
+    </div>
+    <div class="col card-div">
+      <div
+          class="card overflow-hidden h-100 border border-0 shadow-lg  mb-5 rounded align-items-center fw-light">
+          <img src="./img/tazas.webp" class="card-img-top  border-light" alt="...">
+          <div class="card-body">
+              <h5 class="card-title text-primary">Tazas personalizadas</h5>
+          </div>
+
+      </div>
+  </div>
+  <div class="col card-div">
+    <div
+        class="card overflow-hidden h-100 border border-0 shadow-lg  mb-5 rounded align-items-center fw-light">
+        <img src="./img/tripsv.jpg" class="card-img-top  border-light" alt="...">
+        <div class="card-body">
+            <h5 class="card-title text-primary">TripSV</h5>
+        </div>
+
+    </div>
+</div>
+      
+      </div>
+
+      
      </section>
-     <footer class="container-fluid bg-secondary-subtle p-4">
-        <div class="d-flex justify-content-center">
-          <h1>CONTÁCTENOS</h1>
+     <footer class="container-fluid bg-secondary-subtle align-content-center" id="contactenos" style="height: 100vh;">
+        <div class="row mb-3">
+          <h1 class="text-primary text-center text-decoration-underline ">CONTÁCTENOS</h1>
         </div>
-        <div class="d-flex justify-content-center">
-          <p>Si estas listo para conocer o saber acerca de las diversas ideas de negocios de nuestro sitio web, puedes ponerte en contacto y será un placer atenderte.</p>
+        <div class=" row justify-content-center mb-3">
+          <p class="text-center col-md-6 col-12">Si estas listo para conocer o saber acerca de las diversas ideas de negocios de nuestro sitio web, puedes ponerte en contacto y será un placer atenderte.</p>
         </div>
-        <div class="row mt-5">
+        <div class="row justify-content-center">
     
           <div class="col-12 col-md-8 row">
               <div class="col-12 col-md-6 mb-4">
@@ -222,7 +270,7 @@
               </div>
              
           </div>
-          <div class="col-12 col-md-4 row">
+          <div class="col-12 col-md-8 row mt-5">
             <div class="d-flex col-12">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill me-1" viewBox="0 0 16 16">
                 <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
