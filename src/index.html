@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ESAAPP</title>
-    <link rel="shortcut icon" href="/src/icons/logo.jpg">
+    <link rel="icon" href="./icons/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/estilos.css" />
     <link
     rel="stylesheet"
@@ -64,9 +64,9 @@
       >
         <div class="carousel-inner "  >
           <div class="carousel-item active " >
-            <img src="./img/pruebal.jpg" class="d-block w-100 " style="object-fit:fill !important;" alt="..." />
-            <div class="carousel-caption d-sm-block d-md-block  animate__animated animate__bounceIn">
-              <h5 class=""><strong>ESAAPP</strong></h5>
+            <img src="./img/pruebal.jpg" class="d-block w-100 "  alt="..." />
+            <div class="carousel-caption mb-5 d-sm-block d-md-block  animate__animated animate__bounceIn">
+              <h5 class="h1"><strong>ESAAPP</strong></h5>
               <p>
                 Somos un equipo de El Salvador dispuestos a ofreces los mejores
                 servicios tecnológicos.
@@ -79,8 +79,8 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-sm-block d-md-block animate__animated animate__bounceIn">
-              <h5>SERVICIOS DE TECNOLOGÍA</h5>
+            <div class="carousel-caption mb-5 d-sm-block d-md-block animate__animated animate__bounceIn">
+              <h5 class="h1"><strong>SERVICIOS DE TECNOLOGÍA</strong></h5>
               <p>
                 Somos un equipo de El Salvador dispuestos a ofreces los mejores servicios tecnológicos.
               </p>
@@ -92,8 +92,8 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-sm-block d-md-block animate__animated animate__bounceIn">
-              <h5>DESARROLLO DE SOFTWARE</h5>
+            <div class="carousel-caption mb-5 d-sm-block d-md-block animate__animated animate__bounceIn">
+              <h5 class="h1"><strong>DESARROLLO DE SOFTWARE</strong></h5>
               <p>
                 Somos un equipo de El Salvador dispuestos a ofreces los mejores servicios tecnológicos.
               </p>
@@ -105,8 +105,8 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-none d-md-block animate__animated animate__bounceIn">
-              <h5>CAPACITACIÓN</h5>
+            <div class="carousel-caption mb-5 d-sm-block d-md-block animate__animated animate__bounceIn">
+              <h5 class="h1"><strong>CAPACITACIÓN</strong></h5>
               <p>
                 Somos un equipo de El Salvador dispuestos a ofreces los mejores servicios tecnológicos.
               </p>
@@ -183,26 +183,26 @@
       <div class="col-12 mt-5">
         <ul class="nav nav-tabs justify-content-center my-sm">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link active" id="nav-item-todos" aria-current="page" href="#portafolio"  >TODOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" id="nav-item-software" href="#portafolio">SOFTWARE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" id="nav-item-servicios" href="#portafolio">SERVICIOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link " id="nav-item-productos" href="#portafolio">PRODUCTOS</a>
           </li>
         </ul>
       </div>
       <div class=" row row-cols-1 row-cols-md-3 row-cols-sm-2 row-cols-lg-4 g-4 cards-container col-md-12 col-lg-12 mx-0">
         
         
-
-        <div class="col card-div">
+        <a  href="https://website.atrasvasolo.com" target="_blank"  class="text-decoration-none text-black card-div-a animate__animated card-atrasvasolo">
+        <div class="col card-div card-atrasvasolo" >
           <div
-              class="card overflow-hidden h-100 border border-0 shadow-lg  mb-5 rounded align-items-center fw-light">
+              class="card  overflow-hidden h-100 border border-0 shadow-lg  mb-5 rounded align-items-center fw-light">
               <img src="./img/atrasvasolo.jpg" class="card-img-top  border-light" alt="...">
               <div class="card-body">
                   <h5 class="card-title text-primary">AtrasVaSolo</h5>
@@ -210,9 +210,11 @@
 
           </div>
       </div>
-      <div class="col card-div">
+    </a>
+    <a  href="https://website.chivotour.com" target="_blank"  class="text-decoration-none text-black card-div-a animate__animated card-chivotour">
+      <div class="col card-div ">
         <div
-            class="card overflow-hidden h-100 border border-0 shadow-lg  mb-5 rounded align-items-center fw-light">
+            class="card   overflow-hidden h-100 border border-0 shadow-lg  mb-5 rounded align-items-center fw-light">
             <img src="./img/chivotour.jpg" class="card-img-top  border-light" alt="...">
             <div class="card-body">
                 <h5 class="card-title text-primary">ChivoTour</h5>
@@ -220,7 +222,9 @@
 
         </div>
     </div>
-    <div class="col card-div">
+  </a>
+  <a  href="https://www.google.com" target="_blank"  class="text-decoration-none text-black card-div-a animate__animated card-tazas ">
+    <div class="col card-div  ">
       <div
           class="card overflow-hidden h-100 border border-0 shadow-lg  mb-5 rounded align-items-center fw-light">
           <img src="./img/tazas.webp" class="card-img-top  border-light" alt="...">
@@ -230,9 +234,11 @@
 
       </div>
   </div>
-  <div class="col card-div">
+  </a>
+  <a  href="https://tripsv.xyz" target="_blank"  class="text-decoration-none text-black card-div-a animate__animated card-tripsv">
+  <div class="col card-div ">
     <div
-        class="card overflow-hidden h-100 border border-0 shadow-lg  mb-5 rounded align-items-center fw-light">
+        class="card   overflow-hidden h-100 border border-0 shadow-lg  mb-5 rounded align-items-center fw-light">
         <img src="./img/tripsv.jpg" class="card-img-top  border-light" alt="...">
         <div class="card-body">
             <h5 class="card-title text-primary">TripSV</h5>
@@ -240,6 +246,7 @@
 
     </div>
 </div>
+</a>
       
       </div>
 

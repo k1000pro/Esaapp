@@ -25,3 +25,13 @@
 .card:hover .card-title{
     color: #ffffff !important;
 }
+.carousel{
+    height: 100vh;
+}
+.carousel-item{
+    min-height: 100vh;
+}
+.carousel-item img{
+    min-height: 100vh;
+    object-fit: cover !important;
+}
